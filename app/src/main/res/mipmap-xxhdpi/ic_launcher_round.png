@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c006bdc7-3f44-4e6e-b950-246acfd5a37e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/androidTest/java/com/com/canvasgameloop1/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/java/com/com/canvasgameloop1/GameThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/java/com/com/canvasgameloop1/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/java/com/com/canvasgameloop1/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/java/com/com/canvasgameloop1/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/drawable/ic_face_black.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/app/src/test/java/com/com/canvasgameloop1/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasGameLoop1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasTutorial/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasTutorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanvasTutorial/app/src/main/java/com/com/canvastutorial/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/androidTest/java/com/com/jobschedulertutorial/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/java/com/com/jobschedulertutorial/ExampleJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/java/com/com/jobschedulertutorial/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/app/src/test/java/com/com/jobschedulertutorial/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobSchedulerTutorial/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimerApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="
