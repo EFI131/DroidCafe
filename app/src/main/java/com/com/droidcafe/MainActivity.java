@@ -6,9 +6,11 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.ContextMenu;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,9 +25,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if(savedInstanceState != null && savedInstanceState.containsKey(EXTRA_ORDER_MESSAGE)){
+        if (savedInstanceState != null && savedInstanceState.containsKey(EXTRA_ORDER_MESSAGE)) {
             mOrderMessage = savedInstanceState.getString(EXTRA_ORDER_MESSAGE);
         }
+
+
+        // setting context menu
+        TextView textView = findViewById(R.id.textView);
+        registerForContextMenu(textView);
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 
     @Override
@@ -52,6 +61,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        getMenuInflater().inflate(R.menu.menu_context, menu);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -59,11 +74,52 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_order) {
-            return true;
+        switch (id) {
+            case R.id.action_order:
+                //displayToast(getString(R.string.action_order_message));
+                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                intent.putExtra(EXTRA_ORDER_MESSAGE, mOrderMessage);
+                startActivity(intent);
+                return true;
+
+            case R.id.action_status:
+                displayToast(getString(R.string.action_status_message));
+                return true;
+
+            case R.id.action_favorites:
+                displayToast(getString(R.string.action_favorites_message));
+                return true;
+
+            case R.id.action_contact:
+                displayToast(getString(R.string.action_contact_message));
+                return true;
+
+            default:
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        switch(id){
+            case R.id.context_contact:
+                displayToast("contact");
+                return true;
+            case R.id.context_order:
+                displayToast("order");
+                return true;
+            case R.id.context_favorites:
+                displayToast("favorites");
+                return true;
+            case R.id.context_status:
+                displayToast("status");
+                return true;
+        }
+
+        return super.onContextItemSelected(item);
     }
 
     @Override
@@ -93,4 +149,5 @@ public class MainActivity extends AppCompatActivity {
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
+
 }
